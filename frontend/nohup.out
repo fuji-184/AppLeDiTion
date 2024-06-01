@@ -1,0 +1,599 @@
+
+> test@0.0.1 dev
+> vite dev
+
+
+  VITE v5.2.11  ready in 1501 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+5:37:54 PM [vite-plugin-svelte] /root/skripsii/test/src/lib/Hero.svelte:2:8 A11y: <img> element should have an alt attribute
+SvelteKitError: Not found: /nginx_status
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.env
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /favicon.ico
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /img.png
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /avatar.png
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+6:54:02 PM [vite-plugin-svelte] /root/skripsii/test/src/lib/Kartu.svelte:5:6 A11y: Screenreaders already announce <img> elements as an image.
+6:54:02 PM [vite] Pre-transform error: Failed to resolve import "three" from "src/lib/Webgl.svelte". Does the file exist?
+6:54:03 PM [vite] Internal server error: Failed to resolve import "three" from "src/lib/Webgl.svelte". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/skripsii/test/src/lib/Webgl.svelte:3:25
+  19 |  import "svelte/internal/disclose-version";
+  20 |  import { onMount } from 'svelte';
+  21 |  import * as THREE from 'three';
+     |                          ^
+  22 |  const file = "src/lib/Webgl.svelte";
+  23 |  
+      at formatError (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:50830:46)
+      at TransformContext.error (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:50824:19)
+      at normalizeUrl (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66128:33)
+      at async file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66283:47
+      at async Promise.all (index 3)
+      at async TransformContext.transform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66204:13)
+      at async Object.transform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:51139:30)
+      at async loadAndTransform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:53894:29)
+      at async viteTransformMiddleware (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:63743:32)
+SvelteKitError: Not found: /robots.txt
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+6:55:37 PM [vite] Internal server error: Failed to resolve import "three" from "src/lib/Webgl.svelte". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/skripsii/test/src/lib/Webgl.svelte:3:25
+  19 |  import "svelte/internal/disclose-version";
+  20 |  import { onMount } from 'svelte';
+  21 |  import * as THREE from 'three';
+     |                          ^
+  22 |  const file = "src/lib/Webgl.svelte";
+  23 |  
+      at formatError (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:50830:46)
+      at TransformContext.error (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:50824:19)
+      at normalizeUrl (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66128:33)
+      at async file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66283:47
+      at async Promise.all (index 3)
+      at async TransformContext.transform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66204:13)
+      at async Object.transform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:51139:30)
+      at async loadAndTransform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:53894:29)
+      at async viteTransformMiddleware (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:63743:32)
+SvelteKitError: Not found: /favicon.ico
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /img.png
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /avatar.png
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+7:16:19 PM [vite] Internal server error: Failed to resolve import "three" from "src/lib/Webgl.svelte". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/skripsii/test/src/lib/Webgl.svelte:3:25
+  19 |  import "svelte/internal/disclose-version";
+  20 |  import { onMount } from 'svelte';
+  21 |  import * as THREE from 'three';
+     |                          ^
+  22 |  const file = "src/lib/Webgl.svelte";
+  23 |  
+      at formatError (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:50830:46)
+      at TransformContext.error (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:50824:19)
+      at normalizeUrl (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66128:33)
+      at async file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66283:47
+      at async Promise.all (index 3)
+      at async TransformContext.transform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:66204:13)
+      at async Object.transform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:51139:30)
+      at async loadAndTransform (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:53894:29)
+      at async viteTransformMiddleware (file:///root/skripsii/test/node_modules/vite/dist/node/chunks/dep-cNe07EU9.js:63743:32)
+SvelteKitError: Not found: /cgi-bin/luci/;stok=/locale
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /config.xml
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /wp-admin/setup-config.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /config.yaml
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /etc/shadow
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.ssh/id_ecdsa
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /database.sql
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.ssh/id_ed25519
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /config.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /web.config
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.aws/credentials
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /backup.tar.gz
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /config/database.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /config.yml
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /etc/ssl/private/server.key
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /config.json
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /docker-compose.yml
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /config/production.json
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.kube/config
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.env
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.env.production
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.ssh/id_rsa
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /dump.sql
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /backup.zip
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /feed
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.git/HEAD
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /phpinfo.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /robots.txt
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /favicon.ico
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /favicon.ico
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /img.png
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /avatar.png
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /Public/home/js/check.js
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+Files in the public directory are served at the root path.
+Instead of /static/admin/javascript/hetong.js, use /admin/javascript/hetong.js.
+SvelteKitError: Not found: /static/admin/javascript/hetong.js
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /favicon.ico
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /avatar.png
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.vscode/sftp.json
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /sftp-config.json
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /sftp.json
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /favicon.ico
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /wp-content/plugins/backup-backup/modules/gdrivebanner/assets/css/styles.css
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /wp-content/wp-cron.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /wp-cron.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /inputs.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /about.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /wp-includes/wp-cron.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /.well-known/wp-cron.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /simple.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /simple.php
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}
+SvelteKitError: Not found: /favicon.ico
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at #options.hooks.handle (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/index.js:71:56)
+    at Module.respond (/root/skripsii/test/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 404,
+  text: 'Not Found'
+}

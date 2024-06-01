@@ -1,0 +1,446 @@
+2024-05-20 12:13:32,014 - WARNING -  * Debugger is active!
+2024-05-20 12:13:32,014 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:13:56,099 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:13:59,208 - WARNING -  * Debugger is active!
+2024-05-20 12:13:59,208 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:14:00,218 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:14:03,311 - WARNING -  * Debugger is active!
+2024-05-20 12:14:03,312 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:14:10,342 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:14:13,415 - WARNING -  * Debugger is active!
+2024-05-20 12:14:13,416 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:14:20,419 - INFO - 127.0.0.1 - - [20/May/2024 12:14:20] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:15:05,593 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:22:25,152 - WARNING -  * Debugger is active!
+2024-05-20 12:22:25,153 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:22:29,514 - INFO - 127.0.0.1 - - [20/May/2024 12:22:29] "POST /klasifikasi HTTP/1.1" 200 -
+2024-05-20 12:23:41,414 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:23:44,456 - WARNING -  * Debugger is active!
+2024-05-20 12:23:44,457 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:23:55,500 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:23:58,500 - WARNING -  * Debugger is active!
+2024-05-20 12:23:58,500 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:24:35,629 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:26:05,001 - WARNING -  * Debugger is active!
+2024-05-20 12:26:05,001 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:26:06,011 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:26:09,037 - WARNING -  * Debugger is active!
+2024-05-20 12:26:09,037 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:26:11,050 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:26:14,111 - WARNING -  * Debugger is active!
+2024-05-20 12:26:14,111 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:26:17,127 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:26:20,147 - WARNING -  * Debugger is active!
+2024-05-20 12:26:20,147 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:26:21,157 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:26:24,185 - WARNING -  * Debugger is active!
+2024-05-20 12:26:24,186 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:26:26,198 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:26:29,209 - WARNING -  * Debugger is active!
+2024-05-20 12:26:29,209 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:26:48,280 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:26:51,365 - WARNING -  * Debugger is active!
+2024-05-20 12:26:51,365 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:27:00,426 - INFO - 127.0.0.1 - - [20/May/2024 12:27:00] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:27:08,424 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:27:11,428 - WARNING -  * Debugger is active!
+2024-05-20 12:27:11,428 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:27:14,445 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:27:17,470 - WARNING -  * Debugger is active!
+2024-05-20 12:27:17,471 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:27:25,504 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:27:28,524 - WARNING -  * Debugger is active!
+2024-05-20 12:27:28,524 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:27:31,541 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:30:24,453 - WARNING -  * Debugger is active!
+2024-05-20 12:30:24,453 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:30:34,495 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:30:37,110 - WARNING -  * Debugger is active!
+2024-05-20 12:30:37,110 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:30:50,159 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:30:52,743 - WARNING -  * Debugger is active!
+2024-05-20 12:30:52,743 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:30:56,764 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:30:59,342 - WARNING -  * Debugger is active!
+2024-05-20 12:30:59,342 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:31:56,187 - INFO - 127.0.0.1 - - [20/May/2024 12:31:56] "POST /klasifikasi HTTP/1.1" 200 -
+2024-05-20 12:32:07,580 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:32:10,159 - WARNING -  * Debugger is active!
+2024-05-20 12:32:10,160 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:32:11,170 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:32:13,768 - WARNING -  * Debugger is active!
+2024-05-20 12:32:13,769 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:32:21,822 - INFO - 127.0.0.1 - - [20/May/2024 12:32:21] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:34:35,256 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:34:37,873 - WARNING -  * Debugger is active!
+2024-05-20 12:34:37,873 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:34:38,883 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:35:00,499 - WARNING -  * Debugger is active!
+2024-05-20 12:35:00,499 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:35:05,253 - INFO - 127.0.0.1 - - [20/May/2024 12:35:05] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:37:31,997 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:37:34,586 - WARNING -  * Debugger is active!
+2024-05-20 12:37:34,586 - INFO -  * Debugger PIN: 128-174-431
+2024-05-20 12:37:36,600 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:37:39,276 - WARNING -  * Debugger is active!
+2024-05-20 12:37:39,276 - INFO -  * Debugger PIN: 128-174-431
+2024-05-20 12:37:47,310 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:37:49,916 - WARNING -  * Debugger is active!
+2024-05-20 12:37:49,917 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:38:50,124 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:38:52,707 - WARNING -  * Debugger is active!
+2024-05-20 12:38:52,707 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:39:20,802 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:39:23,376 - WARNING -  * Debugger is active!
+2024-05-20 12:39:23,376 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:39:36,427 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:39:39,001 - WARNING -  * Debugger is active!
+2024-05-20 12:39:39,001 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:39:43,021 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:40:02,996 - WARNING -  * Debugger is active!
+2024-05-20 12:40:02,996 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:40:11,728 - INFO - Input nodes:
+2024-05-20 12:40:11,729 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:40:11,729 - INFO - 
+Output nodes:
+2024-05-20 12:40:11,729 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:40:12,052 - INFO - 127.0.0.1 - - [20/May/2024 12:40:12] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:43:00,603 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:43:08,554 - WARNING -  * Debugger is active!
+2024-05-20 12:43:08,554 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:43:09,565 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:43:12,155 - WARNING -  * Debugger is active!
+2024-05-20 12:43:12,156 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:43:17,261 - INFO - Input nodes:
+2024-05-20 12:43:17,261 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:43:17,261 - INFO - 
+Output nodes:
+2024-05-20 12:43:17,261 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:43:17,263 - INFO - 127.0.0.1 - - [20/May/2024 12:43:17] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:43:50,288 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:43:52,864 - WARNING -  * Debugger is active!
+2024-05-20 12:43:52,865 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:44:38,202 - INFO - Input nodes:
+2024-05-20 12:44:38,202 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:44:38,202 - INFO - 
+Output nodes:
+2024-05-20 12:44:38,202 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:44:38,366 - INFO - 127.0.0.1 - - [20/May/2024 12:44:38] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:45:41,233 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:45:43,837 - WARNING -  * Debugger is active!
+2024-05-20 12:45:43,837 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:45:44,847 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:45:47,431 - WARNING -  * Debugger is active!
+2024-05-20 12:45:47,431 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:46:00,698 - INFO - Input nodes:
+2024-05-20 12:46:00,699 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:46:00,699 - INFO - 
+Output nodes:
+2024-05-20 12:46:00,699 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:46:00,700 - INFO - 127.0.0.1 - - [20/May/2024 12:46:00] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:46:15,610 - INFO - Input nodes:
+2024-05-20 12:46:15,611 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:46:15,611 - INFO - 
+Output nodes:
+2024-05-20 12:46:15,611 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:46:15,613 - INFO - 127.0.0.1 - - [20/May/2024 12:46:15] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:46:37,603 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:46:40,165 - WARNING -  * Debugger is active!
+2024-05-20 12:46:40,165 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:46:42,487 - INFO - Input nodes:
+2024-05-20 12:46:42,487 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:46:42,488 - INFO - 
+Output nodes:
+2024-05-20 12:46:42,488 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:46:42,576 - INFO - 127.0.0.1 - - [20/May/2024 12:46:42] "[35m[1mPOST /klasifikasi HTTP/1.1[0m" 500 -
+2024-05-20 12:48:07,458 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:48:10,026 - WARNING -  * Debugger is active!
+2024-05-20 12:48:10,026 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:48:15,049 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:48:17,708 - WARNING -  * Debugger is active!
+2024-05-20 12:48:17,708 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:48:25,103 - INFO - Input nodes:
+2024-05-20 12:48:25,103 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:48:25,103 - INFO - 
+Output nodes:
+2024-05-20 12:48:25,104 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:48:25,209 - INFO - 127.0.0.1 - - [20/May/2024 12:48:25] "POST /klasifikasi HTTP/1.1" 200 -
+2024-05-20 12:53:24,724 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:53:27,266 - WARNING -  * Debugger is active!
+2024-05-20 12:53:27,267 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:53:34,298 - INFO -  * Detected change in '/root/skripsi/backend/server.py', reloading
+2024-05-20 12:53:36,910 - WARNING -  * Debugger is active!
+2024-05-20 12:53:36,910 - INFO -  * Debugger PIN: 443-655-434
+2024-05-20 12:54:41,751 - INFO - 127.0.0.1 - - [20/May/2024 12:54:41] "[33mGET /static HTTP/1.1[0m" 404 -
+2024-05-20 12:54:53,438 - INFO - 127.0.0.1 - - [20/May/2024 12:54:53] "GET /static/gambar.jpg HTTP/1.1" 200 -
+2024-05-20 12:55:05,838 - INFO - 127.0.0.1 - - [20/May/2024 12:55:05] "GET /static/heatmap.jpg HTTP/1.1" 200 -
+2024-05-20 12:59:32,774 - INFO - Input nodes:
+2024-05-20 12:59:32,774 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 12:59:32,774 - INFO - 
+Output nodes:
+2024-05-20 12:59:32,774 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 12:59:32,868 - INFO - 127.0.0.1 - - [20/May/2024 12:59:32] "POST /klasifikasi HTTP/1.1" 200 -
+2024-05-20 12:59:37,851 - INFO - 127.0.0.1 - - [20/May/2024 12:59:37] "GET /static/heatmap.jpg HTTP/1.1" 200 -
+2024-05-20 13:00:08,689 - INFO - Input nodes:
+2024-05-20 13:00:08,690 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 13:00:08,690 - INFO - 
+Output nodes:
+2024-05-20 13:00:08,690 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 13:00:08,776 - INFO - 127.0.0.1 - - [20/May/2024 13:00:08] "POST /klasifikasi HTTP/1.1" 200 -
+2024-05-20 13:00:14,176 - INFO - 127.0.0.1 - - [20/May/2024 13:00:14] "GET /static/heatmap.jpg HTTP/1.1" 200 -
+2024-05-20 13:00:44,276 - INFO - Input nodes:
+2024-05-20 13:00:44,277 - INFO - 1. Name: actual_input, Shape: [1, 3, 224, 224], Type: tensor(float)
+2024-05-20 13:00:44,277 - INFO - 
+Output nodes:
+2024-05-20 13:00:44,277 - INFO - 1. Name: output, Shape: [1, 4], Type: tensor(float)
+2024-05-20 13:00:44,364 - INFO - 127.0.0.1 - - [20/May/2024 13:00:44] "POST /klasifikasi HTTP/1.1" 200 -
+2024-05-20 13:00:46,656 - INFO - 127.0.0.1 - - [20/May/2024 13:00:46] "GET /static/heatmap.jpg HTTP/1.1" 200 -
+2024-05-20 13:57:59,129 - INFO - 127.0.0.1 - - [20/May/2024 13:57:59] "GET / HTTP/1.1" 200 -
+2024-05-20 14:19:15,755 - INFO - 127.0.0.1 - - [20/May/2024 14:19:15] "GET / HTTP/1.1" 200 -
+2024-05-20 14:19:18,799 - INFO - 127.0.0.1 - - [20/May/2024 14:19:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-20 17:34:36,086 - INFO - 127.0.0.1 - - [20/May/2024 17:34:36] "GET / HTTP/1.1" 200 -
+2024-05-20 17:34:39,935 - INFO - 127.0.0.1 - - [20/May/2024 17:34:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-20 17:34:41,467 - INFO - 127.0.0.1 - - [20/May/2024 17:34:41] "GET / HTTP/1.1" 200 -
+2024-05-20 17:34:43,102 - INFO - 127.0.0.1 - - [20/May/2024 17:34:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-21 00:45:06,439 - INFO - 127.0.0.1 - - [21/May/2024 00:45:06] "GET / HTTP/1.1" 200 -
+2024-05-21 01:35:38,737 - INFO - 127.0.0.1 - - [21/May/2024 01:35:38] "GET / HTTP/1.1" 200 -
+2024-05-21 01:35:40,181 - INFO - 127.0.0.1 - - [21/May/2024 01:35:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-21 01:35:42,031 - INFO - 127.0.0.1 - - [21/May/2024 01:35:42] "GET / HTTP/1.1" 200 -
+2024-05-21 01:35:43,417 - INFO - 127.0.0.1 - - [21/May/2024 01:35:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-21 09:36:10,025 - INFO - 127.0.0.1 - - [21/May/2024 09:36:10] "GET / HTTP/1.1" 200 -
+2024-05-21 09:36:11,529 - INFO - 127.0.0.1 - - [21/May/2024 09:36:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-21 09:36:14,464 - INFO - 127.0.0.1 - - [21/May/2024 09:36:14] "GET / HTTP/1.1" 200 -
+2024-05-21 09:36:16,845 - INFO - 127.0.0.1 - - [21/May/2024 09:36:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-21 12:27:54,669 - INFO - 127.0.0.1 - - [21/May/2024 12:27:54] "GET / HTTP/1.1" 200 -
+2024-05-21 13:42:28,264 - INFO - 127.0.0.1 - - [21/May/2024 13:42:28] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+2024-05-21 13:42:29,010 - INFO - 127.0.0.1 - - [21/May/2024 13:42:29] "[33mGET /.aws/config HTTP/1.1[0m" 404 -
+2024-05-21 13:42:30,492 - INFO - 127.0.0.1 - - [21/May/2024 13:42:30] "[33mGET /aws.yml HTTP/1.1[0m" 404 -
+2024-05-21 13:42:33,446 - INFO - 127.0.0.1 - - [21/May/2024 13:42:33] "[33mGET /admin/.env HTTP/1.1[0m" 404 -
+2024-05-21 13:42:34,491 - INFO - 127.0.0.1 - - [21/May/2024 13:42:34] "[33mGET /.env.example HTTP/1.1[0m" 404 -
+2024-05-21 13:42:36,021 - INFO - 127.0.0.1 - - [21/May/2024 13:42:36] "[33mGET /dashboard/phpinfo.php HTTP/1.1[0m" 404 -
+2024-05-21 13:42:36,771 - INFO - 127.0.0.1 - - [21/May/2024 13:42:36] "[33mGET /info.php HTTP/1.1[0m" 404 -
+2024-05-21 17:36:46,494 - INFO - 127.0.0.1 - - [21/May/2024 17:36:46] "GET / HTTP/1.1" 200 -
+2024-05-21 17:36:49,311 - INFO - 127.0.0.1 - - [21/May/2024 17:36:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-21 17:36:50,592 - INFO - 127.0.0.1 - - [21/May/2024 17:36:50] "GET / HTTP/1.1" 200 -
+2024-05-21 17:36:52,087 - INFO - 127.0.0.1 - - [21/May/2024 17:36:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 00:37:31,259 - INFO - 127.0.0.1 - - [22/May/2024 00:37:31] "GET / HTTP/1.1" 200 -
+2024-05-22 01:38:17,588 - INFO - 127.0.0.1 - - [22/May/2024 01:38:17] "GET / HTTP/1.1" 200 -
+2024-05-22 01:38:19,003 - INFO - 127.0.0.1 - - [22/May/2024 01:38:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 01:38:20,619 - INFO - 127.0.0.1 - - [22/May/2024 01:38:20] "GET / HTTP/1.1" 200 -
+2024-05-22 01:38:22,087 - INFO - 127.0.0.1 - - [22/May/2024 01:38:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 09:37:55,964 - INFO - 127.0.0.1 - - [22/May/2024 09:37:55] "GET / HTTP/1.1" 200 -
+2024-05-22 09:37:57,714 - INFO - 127.0.0.1 - - [22/May/2024 09:37:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 09:37:59,049 - INFO - 127.0.0.1 - - [22/May/2024 09:37:59] "GET / HTTP/1.1" 200 -
+2024-05-22 09:38:00,395 - INFO - 127.0.0.1 - - [22/May/2024 09:38:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 11:19:41,234 - INFO - 127.0.0.1 - - [22/May/2024 11:19:41] "GET / HTTP/1.1" 200 -
+2024-05-22 11:58:38,114 - INFO - 127.0.0.1 - - [22/May/2024 11:58:38] "GET / HTTP/1.1" 200 -
+2024-05-22 11:58:39,796 - INFO - 127.0.0.1 - - [22/May/2024 11:58:39] "GET / HTTP/1.1" 200 -
+2024-05-22 12:24:35,075 - INFO - 127.0.0.1 - - [22/May/2024 12:24:35] "GET / HTTP/1.1" 200 -
+2024-05-22 13:22:16,843 - INFO - 127.0.0.1 - - [22/May/2024 13:22:16] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+2024-05-22 18:06:33,013 - INFO - 127.0.0.1 - - [22/May/2024 18:06:33] "GET / HTTP/1.1" 200 -
+2024-05-22 18:06:34,431 - INFO - 127.0.0.1 - - [22/May/2024 18:06:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 18:06:39,109 - INFO - 127.0.0.1 - - [22/May/2024 18:06:39] "GET / HTTP/1.1" 200 -
+2024-05-22 18:06:41,344 - INFO - 127.0.0.1 - - [22/May/2024 18:06:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-22 18:41:53,098 - INFO - 127.0.0.1 - - [22/May/2024 18:41:53] "GET / HTTP/1.1" 200 -
+2024-05-22 19:30:52,057 - INFO - 127.0.0.1 - - [22/May/2024 19:30:52] "GET / HTTP/1.1" 200 -
+2024-05-23 00:35:15,656 - INFO - 127.0.0.1 - - [23/May/2024 00:35:15] "GET / HTTP/1.1" 200 -
+2024-05-23 01:39:44,932 - INFO - 127.0.0.1 - - [23/May/2024 01:39:44] "GET / HTTP/1.1" 200 -
+2024-05-23 01:39:46,384 - INFO - 127.0.0.1 - - [23/May/2024 01:39:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-23 01:39:48,547 - INFO - 127.0.0.1 - - [23/May/2024 01:39:48] "GET / HTTP/1.1" 200 -
+2024-05-23 01:39:50,208 - INFO - 127.0.0.1 - - [23/May/2024 01:39:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-23 01:43:40,703 - INFO - 127.0.0.1 - - [23/May/2024 01:43:40] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+2024-05-23 03:21:03,378 - INFO - 127.0.0.1 - - [23/May/2024 03:21:03] "GET / HTTP/1.1" 200 -
+2024-05-23 09:40:33,834 - INFO - 127.0.0.1 - - [23/May/2024 09:40:33] "GET / HTTP/1.1" 200 -
+2024-05-23 09:40:35,537 - INFO - 127.0.0.1 - - [23/May/2024 09:40:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-23 09:40:37,965 - INFO - 127.0.0.1 - - [23/May/2024 09:40:37] "GET / HTTP/1.1" 200 -
+2024-05-23 09:40:40,225 - INFO - 127.0.0.1 - - [23/May/2024 09:40:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-23 12:33:14,137 - INFO - 127.0.0.1 - - [23/May/2024 12:33:14] "GET / HTTP/1.1" 200 -
+2024-05-23 17:43:37,001 - INFO - 127.0.0.1 - - [23/May/2024 17:43:37] "GET / HTTP/1.1" 200 -
+2024-05-23 17:43:39,436 - INFO - 127.0.0.1 - - [23/May/2024 17:43:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-23 17:43:41,685 - INFO - 127.0.0.1 - - [23/May/2024 17:43:41] "GET / HTTP/1.1" 200 -
+2024-05-23 17:43:43,544 - INFO - 127.0.0.1 - - [23/May/2024 17:43:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-23 18:30:30,768 - INFO - 127.0.0.1 - - [23/May/2024 18:30:30] "GET / HTTP/1.1" 200 -
+2024-05-23 18:37:19,036 - INFO - 127.0.0.1 - - [23/May/2024 18:37:19] "GET / HTTP/1.1" 200 -
+2024-05-24 00:23:04,674 - INFO - 127.0.0.1 - - [24/May/2024 00:23:04] "GET / HTTP/1.1" 200 -
+2024-05-24 01:45:58,068 - INFO - 127.0.0.1 - - [24/May/2024 01:45:58] "GET / HTTP/1.1" 200 -
+2024-05-24 01:45:59,513 - INFO - 127.0.0.1 - - [24/May/2024 01:45:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-24 01:46:00,909 - INFO - 127.0.0.1 - - [24/May/2024 01:46:00] "GET / HTTP/1.1" 200 -
+2024-05-24 09:47:59,695 - INFO - 127.0.0.1 - - [24/May/2024 09:47:59] "GET / HTTP/1.1" 200 -
+2024-05-24 09:48:01,207 - INFO - 127.0.0.1 - - [24/May/2024 09:48:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-24 09:48:07,138 - INFO - 127.0.0.1 - - [24/May/2024 09:48:07] "GET / HTTP/1.1" 200 -
+2024-05-24 09:48:09,579 - INFO - 127.0.0.1 - - [24/May/2024 09:48:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-24 12:33:20,889 - INFO - 127.0.0.1 - - [24/May/2024 12:33:20] "GET / HTTP/1.1" 200 -
+2024-05-24 17:49:27,855 - INFO - 127.0.0.1 - - [24/May/2024 17:49:27] "GET / HTTP/1.1" 200 -
+2024-05-24 17:49:30,100 - INFO - 127.0.0.1 - - [24/May/2024 17:49:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-24 17:49:31,653 - INFO - 127.0.0.1 - - [24/May/2024 17:49:31] "GET / HTTP/1.1" 200 -
+2024-05-24 17:49:33,108 - INFO - 127.0.0.1 - - [24/May/2024 17:49:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 00:31:14,230 - INFO - 127.0.0.1 - - [25/May/2024 00:31:14] "GET / HTTP/1.1" 200 -
+2024-05-25 00:40:28,230 - INFO - 127.0.0.1 - - [25/May/2024 00:40:28] "GET / HTTP/1.1" 200 -
+2024-05-25 01:49:39,771 - INFO - 127.0.0.1 - - [25/May/2024 01:49:39] "GET / HTTP/1.1" 200 -
+2024-05-25 01:49:41,243 - INFO - 127.0.0.1 - - [25/May/2024 01:49:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 01:49:43,687 - INFO - 127.0.0.1 - - [25/May/2024 01:49:43] "GET / HTTP/1.1" 200 -
+2024-05-25 01:49:45,607 - INFO - 127.0.0.1 - - [25/May/2024 01:49:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 09:51:25,840 - INFO - 127.0.0.1 - - [25/May/2024 09:51:25] "GET / HTTP/1.1" 200 -
+2024-05-25 09:51:27,273 - INFO - 127.0.0.1 - - [25/May/2024 09:51:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 09:51:28,546 - INFO - 127.0.0.1 - - [25/May/2024 09:51:28] "GET / HTTP/1.1" 200 -
+2024-05-25 10:27:20,012 - INFO - 127.0.0.1 - - [25/May/2024 10:27:20] "GET / HTTP/1.1" 200 -
+2024-05-25 12:33:37,203 - INFO - 127.0.0.1 - - [25/May/2024 12:33:37] "GET / HTTP/1.1" 200 -
+2024-05-25 16:47:29,880 - INFO - 127.0.0.1 - - [25/May/2024 16:47:29] "GET / HTTP/1.1" 200 -
+2024-05-25 16:47:40,005 - INFO - 127.0.0.1 - - [25/May/2024 16:47:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 17:54:04,096 - INFO - 127.0.0.1 - - [25/May/2024 17:54:04] "GET / HTTP/1.1" 200 -
+2024-05-25 17:54:06,064 - INFO - 127.0.0.1 - - [25/May/2024 17:54:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 17:54:07,369 - INFO - 127.0.0.1 - - [25/May/2024 17:54:07] "GET / HTTP/1.1" 200 -
+2024-05-25 17:54:08,868 - INFO - 127.0.0.1 - - [25/May/2024 17:54:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 20:05:42,113 - INFO - 127.0.0.1 - - [25/May/2024 20:05:42] "GET / HTTP/1.1" 200 -
+2024-05-25 20:05:48,380 - INFO - 127.0.0.1 - - [25/May/2024 20:05:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 20:26:07,119 - INFO - 127.0.0.1 - - [25/May/2024 20:26:07] "[32mGET  HTTP/1.1[0m" 308 -
+2024-05-25 20:26:39,217 - INFO - 127.0.0.1 - - [25/May/2024 20:26:39] "[32mGET  HTTP/1.1[0m" 308 -
+2024-05-25 20:26:58,484 - INFO - 127.0.0.1 - - [25/May/2024 20:26:58] "[32mGET  HTTP/1.1[0m" 308 -
+2024-05-25 21:21:18,219 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /bin/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,220 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /app/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,225 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /blog/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,233 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /blog/wp-content/themes/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,254 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /components/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,273 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /content/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,277 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /css/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,280 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /core/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,297 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /database/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,298 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /data/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,324 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /developer/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,331 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /doc/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,365 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /htdocs/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,373 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,383 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /html/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,389 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /info/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,405 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /backend/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,406 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /assets/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,414 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /lib/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,420 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /log/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,437 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /live/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,439 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /modules/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,448 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /node_modules/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,475 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /plugins/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,475 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /private/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,486 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /prod.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,489 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /public/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,498 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /qa/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,503 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /repos/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,511 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /repository/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,515 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /resources/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,535 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /samples/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,549 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /settings/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,561 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /shop/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,582 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /staging/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:18,589 - INFO - 127.0.0.1 - - [25/May/2024 21:21:18] "[33mGET /store/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:19,321 - INFO - 127.0.0.1 - - [25/May/2024 21:21:19] "[33mGET /static/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:19,382 - INFO - 127.0.0.1 - - [25/May/2024 21:21:19] "[33mGET /wiki/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:19,387 - INFO - 127.0.0.1 - - [25/May/2024 21:21:19] "[33mGET /var/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:19,479 - INFO - 127.0.0.1 - - [25/May/2024 21:21:19] "[33mGET /__MACOSX/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:19,881 - INFO - 127.0.0.1 - - [25/May/2024 21:21:19] "[33mGET /web/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:19,882 - INFO - 127.0.0.1 - - [25/May/2024 21:21:19] "[33mGET /website/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:19,948 - INFO - 127.0.0.1 - - [25/May/2024 21:21:19] "[33mGET /wp-includes/js/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:21:20,085 - INFO - 127.0.0.1 - - [25/May/2024 21:21:20] "[33mGET /uploads/.git/config HTTP/1.1[0m" 404 -
+2024-05-25 21:53:51,833 - INFO - 127.0.0.1 - - [25/May/2024 21:53:51] "[33mGET /.hgrc HTTP/1.1[0m" 404 -
+2024-05-25 21:53:52,125 - INFO - 127.0.0.1 - - [25/May/2024 21:53:52] "[33mGET /.git/credentials HTTP/1.1[0m" 404 -
+2024-05-26 00:25:13,576 - INFO - 127.0.0.1 - - [26/May/2024 00:25:13] "GET / HTTP/1.1" 200 -
+2024-05-26 01:54:35,536 - INFO - 127.0.0.1 - - [26/May/2024 01:54:35] "GET / HTTP/1.1" 200 -
+2024-05-26 01:54:36,978 - INFO - 127.0.0.1 - - [26/May/2024 01:54:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 01:54:38,796 - INFO - 127.0.0.1 - - [26/May/2024 01:54:38] "GET / HTTP/1.1" 200 -
+2024-05-26 01:54:40,483 - INFO - 127.0.0.1 - - [26/May/2024 01:54:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 09:55:32,710 - INFO - 127.0.0.1 - - [26/May/2024 09:55:32] "GET / HTTP/1.1" 200 -
+2024-05-26 09:55:34,716 - INFO - 127.0.0.1 - - [26/May/2024 09:55:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 09:55:36,569 - INFO - 127.0.0.1 - - [26/May/2024 09:55:36] "GET / HTTP/1.1" 200 -
+2024-05-26 09:55:38,268 - INFO - 127.0.0.1 - - [26/May/2024 09:55:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 17:57:27,340 - INFO - 127.0.0.1 - - [26/May/2024 17:57:27] "GET / HTTP/1.1" 200 -
+2024-05-26 17:57:28,751 - INFO - 127.0.0.1 - - [26/May/2024 17:57:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 17:57:30,415 - INFO - 127.0.0.1 - - [26/May/2024 17:57:30] "GET / HTTP/1.1" 200 -
+2024-05-27 01:59:05,046 - INFO - 127.0.0.1 - - [27/May/2024 01:59:05] "GET / HTTP/1.1" 200 -
+2024-05-27 01:59:06,509 - INFO - 127.0.0.1 - - [27/May/2024 01:59:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-27 01:59:07,869 - INFO - 127.0.0.1 - - [27/May/2024 01:59:07] "GET / HTTP/1.1" 200 -
+2024-05-27 06:17:41,533 - INFO - 127.0.0.1 - - [27/May/2024 06:17:41] "[33mGET /.git/ HTTP/1.1[0m" 404 -
+2024-05-27 09:58:01,392 - INFO - 127.0.0.1 - - [27/May/2024 09:58:01] "GET / HTTP/1.1" 200 -
+2024-05-27 09:58:02,947 - INFO - 127.0.0.1 - - [27/May/2024 09:58:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-27 09:58:05,073 - INFO - 127.0.0.1 - - [27/May/2024 09:58:05] "GET / HTTP/1.1" 200 -
+2024-05-27 09:58:06,828 - INFO - 127.0.0.1 - - [27/May/2024 09:58:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-27 09:58:09,490 - INFO - 127.0.0.1 - - [27/May/2024 09:58:09] "GET / HTTP/1.1" 200 -
+2024-05-27 18:00:55,979 - INFO - 127.0.0.1 - - [27/May/2024 18:00:55] "GET / HTTP/1.1" 200 -
+2024-05-27 18:00:57,455 - INFO - 127.0.0.1 - - [27/May/2024 18:00:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-27 18:00:59,076 - INFO - 127.0.0.1 - - [27/May/2024 18:00:59] "GET / HTTP/1.1" 200 -
+2024-05-27 18:01:01,530 - INFO - 127.0.0.1 - - [27/May/2024 18:01:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 02:03:07,551 - INFO - 127.0.0.1 - - [28/May/2024 02:03:07] "GET / HTTP/1.1" 200 -
+2024-05-28 02:03:09,035 - INFO - 127.0.0.1 - - [28/May/2024 02:03:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 02:03:10,422 - INFO - 127.0.0.1 - - [28/May/2024 02:03:10] "GET / HTTP/1.1" 200 -
+2024-05-28 02:03:12,742 - INFO - 127.0.0.1 - - [28/May/2024 02:03:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 06:10:36,376 - INFO - 127.0.0.1 - - [28/May/2024 06:10:36] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+2024-05-28 10:03:50,258 - INFO - 127.0.0.1 - - [28/May/2024 10:03:50] "GET / HTTP/1.1" 200 -
+2024-05-28 10:03:51,699 - INFO - 127.0.0.1 - - [28/May/2024 10:03:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 10:03:53,316 - INFO - 127.0.0.1 - - [28/May/2024 10:03:53] "GET / HTTP/1.1" 200 -
+2024-05-28 10:03:54,753 - INFO - 127.0.0.1 - - [28/May/2024 10:03:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 12:22:05,005 - INFO - 127.0.0.1 - - [28/May/2024 12:22:05] "GET / HTTP/1.1" 200 -
+2024-05-28 13:55:21,967 - INFO - 127.0.0.1 - - [28/May/2024 13:55:21] "GET / HTTP/1.1" 200 -
+2024-05-28 13:55:22,383 - INFO - 127.0.0.1 - - [28/May/2024 13:55:22] "GET / HTTP/1.1" 200 -
+2024-05-28 13:55:23,158 - INFO - 127.0.0.1 - - [28/May/2024 13:55:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 14:09:44,286 - INFO - 127.0.0.1 - - [28/May/2024 14:09:44] "GET / HTTP/1.1" 200 -
+2024-05-28 14:09:45,420 - INFO - 127.0.0.1 - - [28/May/2024 14:09:45] "GET / HTTP/1.1" 200 -
+2024-05-28 14:09:46,860 - INFO - 127.0.0.1 - - [28/May/2024 14:09:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 14:32:31,023 - INFO - 127.0.0.1 - - [28/May/2024 14:32:31] "GET / HTTP/1.1" 200 -
+2024-05-28 14:32:31,763 - INFO - 127.0.0.1 - - [28/May/2024 14:32:31] "GET / HTTP/1.1" 200 -
+2024-05-28 15:36:52,619 - INFO - 127.0.0.1 - - [28/May/2024 15:36:52] "GET / HTTP/1.1" 200 -
+2024-05-28 16:29:05,109 - INFO - 127.0.0.1 - - [28/May/2024 16:29:05] "GET / HTTP/1.1" 200 -
+2024-05-28 16:29:06,055 - INFO - 127.0.0.1 - - [28/May/2024 16:29:06] "GET / HTTP/1.1" 200 -
+2024-05-28 18:03:44,316 - INFO - 127.0.0.1 - - [28/May/2024 18:03:44] "GET / HTTP/1.1" 200 -
+2024-05-28 18:03:45,820 - INFO - 127.0.0.1 - - [28/May/2024 18:03:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-28 18:03:47,741 - INFO - 127.0.0.1 - - [28/May/2024 18:03:47] "GET / HTTP/1.1" 200 -
+2024-05-28 18:03:50,180 - INFO - 127.0.0.1 - - [28/May/2024 18:03:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-29 00:22:58,536 - INFO - 127.0.0.1 - - [29/May/2024 00:22:58] "GET / HTTP/1.1" 200 -
+2024-05-29 02:06:06,321 - INFO - 127.0.0.1 - - [29/May/2024 02:06:06] "GET / HTTP/1.1" 200 -
+2024-05-29 02:06:07,854 - INFO - 127.0.0.1 - - [29/May/2024 02:06:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-29 02:06:09,243 - INFO - 127.0.0.1 - - [29/May/2024 02:06:09] "GET / HTTP/1.1" 200 -
+2024-05-29 02:06:10,715 - INFO - 127.0.0.1 - - [29/May/2024 02:06:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-29 09:21:16,212 - INFO - 127.0.0.1 - - [29/May/2024 09:21:16] "GET / HTTP/1.1" 200 -
+2024-05-29 10:06:31,903 - INFO - 127.0.0.1 - - [29/May/2024 10:06:31] "GET / HTTP/1.1" 200 -
+2024-05-29 10:06:33,394 - INFO - 127.0.0.1 - - [29/May/2024 10:06:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-29 10:06:35,795 - INFO - 127.0.0.1 - - [29/May/2024 10:06:35] "GET / HTTP/1.1" 200 -
+2024-05-29 10:06:37,253 - INFO - 127.0.0.1 - - [29/May/2024 10:06:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-29 18:09:54,383 - INFO - 127.0.0.1 - - [29/May/2024 18:09:54] "GET / HTTP/1.1" 200 -
+2024-05-29 18:09:56,192 - INFO - 127.0.0.1 - - [29/May/2024 18:09:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-29 18:09:57,851 - INFO - 127.0.0.1 - - [29/May/2024 18:09:57] "GET / HTTP/1.1" 200 -
+2024-05-29 18:09:59,361 - INFO - 127.0.0.1 - - [29/May/2024 18:09:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-30 02:11:11,348 - INFO - 127.0.0.1 - - [30/May/2024 02:11:11] "GET / HTTP/1.1" 200 -
+2024-05-30 02:11:12,957 - INFO - 127.0.0.1 - - [30/May/2024 02:11:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-30 02:11:15,204 - INFO - 127.0.0.1 - - [30/May/2024 02:11:15] "GET / HTTP/1.1" 200 -
+2024-05-30 02:11:17,584 - INFO - 127.0.0.1 - - [30/May/2024 02:11:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-30 04:50:25,121 - INFO - 127.0.0.1 - - [30/May/2024 04:50:25] "GET / HTTP/1.1" 200 -
+2024-05-30 10:09:34,242 - INFO - 127.0.0.1 - - [30/May/2024 10:09:34] "GET / HTTP/1.1" 200 -
+2024-05-30 10:09:36,184 - INFO - 127.0.0.1 - - [30/May/2024 10:09:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-30 10:09:37,600 - INFO - 127.0.0.1 - - [30/May/2024 10:09:37] "GET / HTTP/1.1" 200 -
+2024-05-30 10:09:40,102 - INFO - 127.0.0.1 - - [30/May/2024 10:09:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-30 16:06:47,241 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 16:06:47,241 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-30 16:06:47,242 - INFO -  * Restarting with stat
+2024-05-30 16:06:49,495 - WARNING -  * Debugger is active!
+2024-05-30 16:06:49,496 - INFO -  * Debugger PIN: 443-655-434
+2024-05-30 16:09:09,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 16:09:09,766 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-30 16:09:09,766 - INFO -  * Restarting with stat
+2024-05-30 16:09:11,986 - WARNING -  * Debugger is active!
+2024-05-30 16:09:11,986 - INFO -  * Debugger PIN: 443-655-434
+2024-05-30 16:09:13,066 - INFO - 127.0.0.1 - - [30/May/2024 16:09:13] "GET / HTTP/1.1" 200 -
+2024-05-30 16:09:15,131 - INFO - 127.0.0.1 - - [30/May/2024 16:09:15] "GET / HTTP/1.1" 200 -
+2024-05-30 16:09:16,883 - INFO - 127.0.0.1 - - [30/May/2024 16:09:16] "GET / HTTP/1.1" 200 -
+2024-05-30 16:10:00,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-30 16:10:00,305 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-30 16:10:00,305 - INFO -  * Restarting with stat
+2024-05-30 16:10:02,584 - WARNING -  * Debugger is active!
+2024-05-30 16:10:02,584 - INFO -  * Debugger PIN: 443-655-434
+2024-05-30 16:10:02,590 - INFO - 127.0.0.1 - - [30/May/2024 16:10:02] "GET / HTTP/1.1" 200 -
+2024-05-30 16:10:05,126 - INFO - 127.0.0.1 - - [30/May/2024 16:10:05] "GET / HTTP/1.1" 200 -
+2024-05-30 16:10:36,975 - INFO - 127.0.0.1 - - [30/May/2024 16:10:36] "GET / HTTP/1.1" 200 -
+2024-05-30 16:10:38,834 - INFO - 127.0.0.1 - - [30/May/2024 16:10:38] "GET / HTTP/1.1" 200 -
+2024-05-30 16:10:50,428 - INFO - 127.0.0.1 - - [30/May/2024 16:10:50] "GET / HTTP/1.1" 200 -
+2024-05-30 16:10:52,172 - INFO - 127.0.0.1 - - [30/May/2024 16:10:52] "GET / HTTP/1.1" 200 -
+2024-05-30 16:11:57,571 - INFO - 127.0.0.1 - - [30/May/2024 16:11:57] "GET / HTTP/1.1" 200 -
+2024-05-30 16:12:35,800 - INFO - 127.0.0.1 - - [30/May/2024 16:12:35] "GET / HTTP/1.1" 200 -

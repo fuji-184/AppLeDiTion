@@ -7,8 +7,8 @@
   const dispath = createEventDispatcher()
 
   let files;
-  let base64_img
-  // let base64_img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHeavMGuSDnzymxaNqqTBHUP4sS7hnop2m6ZaodkfQ_u17keaBp7cqn8&s=10';
+  // let base64_img
+  let base64_img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHeavMGuSDnzymxaNqqTBHUP4sS7hnop2m6ZaodkfQ_u17keaBp7cqn8&s=10';
   
   function toBase64() {
     if (files && files.length > 0) {
@@ -42,7 +42,11 @@
   }
 </script>
 
-<div class="bg-green-100 border border-green-500 m-5 p-5 rounded-md">
+<div class="bg-gradient-to-b from-black via-green-950 to-green-950 p-8 pt-24">
+<div class="bg-green-100 border border-green-500 p-8 rounded-md">
+  
+  <svg class="block mx-auto" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em"><path fill="currentColor" d="M13.3 34.15h21.45q.5 0 .7-.4.2-.4-.1-.8l-5.85-7.8q-.25-.3-.6-.3t-.6.3l-6 7.75-4.05-5.55q-.25-.3-.6-.3t-.6.3l-4.3 5.6q-.25.4-.075.8t.625.4ZM9 42q-1.2 0-2.1-.9Q6 40.2 6 39V9q0-1.2.9-2.1Q7.8 6 9 6h30q1.2 0 2.1.9.9.9.9 2.1v30q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h30V9H9v30ZM9 9v30V9Z"/></svg>
+  
   <input type="file" bind:files on:change={toBase64} class="block w-[50%] m-auto mb-5 rounded-md" />
   
   {#if base64_img}
@@ -51,4 +55,5 @@
 
   <Tombol setting={{ klik: kirimGambar, teks: 'Kirim' }} />
 
+</div>
 </div>

@@ -3,29 +3,14 @@
   import io from "socket.io-client"
 
   $: pesan = []
-  let socket
-  
-  onMount(() => {
-    socket = io(`${import.meta.env.VITE_BACKEND_URL}`)
-    
-    socket.on("json", msg => {
-      pesan = [...pesan, JSON.parse(msg)]
-    })
-    
-    return () => {
-      socket.disconnect()
-    }
-  })
   
   let pesan_baru = ""
   
   function kirimPesan(){
-    socket.emit("json",
-      JSON.stringify({
-        "nama": "fuji",
-        "isi": pesan_baru
-      })
-    )
+    pesan = [...pesan, {
+      nama: "fuji",
+      isi: pesan_baru
+    }]
     pesan_baru = ""
   }
 </script>

@@ -1,11 +1,15 @@
-<div class="bg-black text-white py-20">
+<script>
+  import Daun from "$lib/Daun.svelte"
+</script>
+
+<Daun/>
+<div class="bg-gradient-to-br from-green-950 via-black to-black text-white py-20">
 		<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
 			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-				<h1 class="text-3xl md:text-5xl p-2 text-green-300 tracking-loose">TechFest</h1>
-				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Space : The Timeless Infinity
+				<h1 class="text-3xl md:text-5xl text-green-300 tracking-loose">AppLeDiTion App</h1>
+				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Apple Leaves Disease Classification
 				</h2>
-				<p class="text-sm md:text-base text-gray-50 mb-4">Explore your favourite events and
-					register now to showcase your talent and win exciting prizes.</p>
+				<p class="text-sm md:text-base text-gray-50 mb-4">Know your apple leaves disease early and harvest more apples</p>
 				<a href="/masuk"
 					class="bg-transparent hover:bg-green-300 text-green-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-green-300 hover:border-transparent">Get Started</a>
 			</div>

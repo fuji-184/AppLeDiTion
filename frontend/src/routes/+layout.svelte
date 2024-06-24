@@ -1,4 +1,4 @@
-<div class="bg-gradient-to-b from-black to-green-950 h-screen">
+<div class="h-screen bg-black">
   <Navigasi/>
   <slot/>
 </div>

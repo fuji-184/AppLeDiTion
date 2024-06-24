@@ -7,9 +7,9 @@
     let socket;
 
     onMount(() => {
-        socket = io('https://api.alarm.consulting'); // Sesuaikan dengan alamat server Flask
+        socket = io('http://localhost:5000'); // Sesuaikan dengan alamat server Flask
 
-        socket.on('json', msg => {
+        socket.on('message', msg => {
             console.log(messages)
             messages = [...messages, msg];
         });

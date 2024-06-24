@@ -1,31 +1,28 @@
 <script>
-  import { onMount } from 'svelte';
   import { createEventDispatcher } from 'svelte';
 
   let isOpen = false;
   const dispatch = createEventDispatcher();
-  
-  export let question
 
-  onMount(() => {
-    const accordion = document.querySelector('.accordion');
-    accordion.addEventListener('click', () => {
-      isOpen = !isOpen;
-      dispatch('toggle', { isOpen });
-    });
-  });
+  export let question;
+
+  function toggleAccordion() {
+    isOpen = !isOpen;
+    dispatch('toggle', { isOpen });
+  }
 </script>
 
 <div
-  class="accordion py-8 px-6 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-green-50 accordion-active:bg-green-50"
+  class="text-md bg-gradient-to-br from-green-500 via-green-800 to-black accordion py-8 px-6 transition-all duration-500 rounded-2xl hover:bg-green-500"
 >
   <button
-    class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-green-600 accordion-active:text-green-600"
-    aria-expanded="{isOpen}"
+    class="accordion-toggle group inline-flex items-center justify-between leading-8 w-full transition duration-500 text-left hover:text-green-100 accordion-active:text-green-100"
+    aria-expanded={isOpen}
+    on:click={toggleAccordion}
   >
-    <h5>{question}</h5>
+    <h5 class="font-semibold">{question}</h5>
     <svg
-      class="text-gray-500 transition duration-500 group-hover:text-green-600 accordion-active:text-green-600 accordion-active:rotate-180"
+      class="transition duration-500 group-hover:text-green-100 accordion-active:text-green-100 accordion-active:rotate-180"
       width="22"
       height="22"
       viewBox="0 0 22 22"
@@ -43,11 +40,17 @@
     </svg>
   </button>
   <div
-    class="accordion-content w-full px-0 overflow-hidden"
+    class="accordion-content w-full px-0 overflow-hidden transition-max-height"
     style="max-height: {isOpen ? '250px' : '0'}"
   >
-    <p class="text-base text-gray-900 leading-6">
+    <p class="text-sm leading-6">
       <slot></slot>
     </p>
   </div>
 </div>
+
+<style>
+  .accordion-active {
+    background-color: #d1f7d8; /* Ubah warna sesuai keinginan */
+  }
+</style>

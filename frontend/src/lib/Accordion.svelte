@@ -13,16 +13,16 @@
 </script>
 
 <div
-  class="text-md bg-gradient-to-br from-green-500 via-green-800 to-black accordion py-8 px-6 transition-all duration-500 rounded-2xl hover:bg-green-500"
+  class="text-md bg-gradient-to-br from-emerald-500 via-emerald-800 to-black accordion py-8 px-6 transition-all duration-500 rounded-2xl hover:bg-emerald-500 shadow-lg shadow-emerald-500"
 >
   <button
-    class="accordion-toggle group inline-flex items-center justify-between leading-8 w-full transition duration-500 text-left hover:text-green-100 accordion-active:text-green-100"
+    class="accordion-toggle group inline-flex items-center justify-between leading-8 w-full transition duration-500 text-left hover:text-emerald-100 accordion-active:text-emerald-100"
     aria-expanded={isOpen}
     on:click={toggleAccordion}
   >
     <h5 class="font-semibold">{question}</h5>
     <svg
-      class="transition duration-500 group-hover:text-green-100 accordion-active:text-green-100 accordion-active:rotate-180"
+      class="transition duration-500 group-hover:text-emerald-100 accordion-active:text-emerald-100 accordion-active:rotate-180"
       width="22"
       height="22"
       viewBox="0 0 22 22"

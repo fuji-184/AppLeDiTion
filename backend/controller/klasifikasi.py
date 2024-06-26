@@ -1,5 +1,6 @@
 from flask import Flask, request
 from setup.model import Model
+from controller.pengobatan import obat
 import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -19,6 +20,10 @@ def klasifikasi_route():
         gambar.save(path_gambar)
 
         hasil_prediksi = model.classify_image(path_gambar)
+        
+        hasil_prediksi = obat(penyakit=hasil_prediksi)
+        
+        model.generate_heatmap(image_path=path_gambar, save_path='../static/heatmap.jpg')
 
         return {
             'hasil_prediksi': hasil_prediksi

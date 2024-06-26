@@ -27,12 +27,12 @@
   }
 </script>
 
-<header class="z-10 h-auto p-0 fixed bottom-0 left-0 right-0 flex justify-center bg-black text-black sm:static sm:justify-between box-border h-[80px]">
-  <div class="grid grid-cols-5 text-green-500 place-items-center place-content-center font-bold">
+<header class="z-10 h-auto p-0 fixed bottom-0 left-0 right-0 flex justify-center bg-black text-black sm:static sm:justify-between box-border h-[80px] md:justify-center">
+  <div class="grid grid-cols-5 text-emerald-500 place-items-center place-content-center font-bold">
     {#each menu as m}
     <div class="relative h-[100%] w-auto box-border">
-      <a href="{m.href}" class="p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-green-600 hover:text-white {activeMenu === m.href ? 'bg-gradient-to-b from-black via-black to-green-60 text-white' : ''}" on:click="{() => setActiveMenu(m.href)}">
-        <span class="flex justify-center items-center flex-col hover:animate-blink {activeMenu === m.href ? 'text-white' : ''} text-sm">
+      <a href="{m.href}" class="p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-emerald-600 hover:text-white {activeMenu === m.href ? 'bg-gradient-to-b from-black via-black to-emerald-60 text-white' : ''}" on:click="{() => setActiveMenu(m.href)}">
+        <span class="flex justify-center items-center flex-col hover:animate-blink {activeMenu === m.href ? 'text-white' : ''} text-sm drop-shadow-[0_10px_8px_rgba(16,185,129,1)]">
           {@html m.icon}
           {m.label}
           </span>
@@ -40,7 +40,7 @@
       </div>
     {/each}
     <div class="relative h-[100%] w-auto box-border">
-      <span class="p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-green-600 hover:text-white {activeMenu === 'search' ? 'bg-gradient-to-b from-black via-black to-green-60 text-white' : ''}" on:click="{() => klikPencarian()}">
+      <span class="p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-emerald-600 hover:text-white {activeMenu === 'search' ? 'bg-gradient-to-b from-black via-black to-emerald-60 text-white' : ''}" on:click="{() => klikPencarian()}">
         <span class="flex justify-center items-center flex-col hover:animate-blink {activeMenu === 'search' ? 'text-white' : ''} text-sm">
       <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em"><path fill="currentColor" d="M38.7 40.85 26.65 28.8q-1.5 1.3-3.5 2.025-2 .725-4.25.725-5.4 0-9.15-3.75T6 18.75q0-5.3 3.75-9.05 3.75-3.75 9.1-3.75 5.3 0 9.025 3.75 3.725 3.75 3.725 9.05 0 2.15-.7 4.15-.7 2-2.1 3.75L40.95 38.7q.45.4.45 1.025 0 .625-.5 1.125-.45.45-1.1.45-.65 0-1.1-.45Zm-19.85-12.3q4.05 0 6.9-2.875Q28.6 22.8 28.6 18.75t-2.85-6.925Q22.9 8.95 18.85 8.95q-4.1 0-6.975 2.875T9 18.75q0 4.05 2.875 6.925t6.975 2.875Z"/></svg>
       Search

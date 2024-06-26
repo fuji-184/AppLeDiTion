@@ -1,4 +1,4 @@
-<footer class="relative left-0 right-0 h-[50%] bottom-0 bg-gradient-to-b from-black via-green-900 to-green-500 p-8 text-green-100 flex flex-col gap-8">
+<footer class="relative left-0 right-0 h-[50%] bottom-0 bg-gradient-to-b from-black via-emerald-900 to-emerald-500 p-8 text-emerald-100 flex flex-col gap-8">
   <div>
     <ul>
       <li>About</li>

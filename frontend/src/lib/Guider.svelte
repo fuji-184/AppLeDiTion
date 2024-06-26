@@ -1,5 +1,5 @@
-<div class="flex flex-col gap-4 justify-center pt-24 p-8 bg-gradient-to-br from-green-950 via-black to-black text-green-100">
-  <h3 class="text-center text-4xl font-extrabold ">How To Use It?<br/><p class="text-xl mt-8 mb-4">Cukup 3 Langkah</p></h3>
+<div class="flex flex-col gap-4 justify-center pt-24 p-8 bg-gradient-to-br from-emerald-950 via-black to-black text-emerald-100 md:px-[16%]">
+  <h3 class="text-3xl md:text-5xl tracking-loose text-center drop-shadow-[0_8px_6px_rgba(34,197,94,1)] bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-emerald-400 font-bold">How To Use It?<br/><p class="text-xl mt-8 mb-4">Cukup 3 Langkah</p></h3>
   <table class="w-[100%] m-auto text-justify text-md font-semibold">
     <tr>
       <td>1. </td><td>Buka Halaman Web AppLeDiTion</td>

@@ -19,16 +19,16 @@
   ]
 </script>
 
-<div class="flex justify-center items-center flex-col gap-24 p-32 bg-gradient-to-bl from-black via-black to-green-950 relative z-[-2]">
-  <h2 class="text-4xl font-extrabold text-center text-white">Why Using This Tools?</h2>
+<div class="flex justify-center items-center flex-col gap-24 bg-gradient-to-bl from-black via-black to-emerald-950 relative">
+  <h2 class="text-3xl md:text-5xl tracking-loose text-center drop-shadow-[0_8px_6px_rgba(34,197,94,1)] bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-emerald-400 font-bold">Why Using This Tools?</h2>
   <div class="flex flex-col justify-center items-center gap-16 text-center">
     {#each features as f}
-      <div class="relative left-[-40%]">
-        <div class="flex flex-col gap-4 justify-center items-center bg-gradient-to-b from-green-500 via-green-950 to-black p-8 w-[160px] rounded-tr-3xl rounded-bl-3xl text-green-100">
+      <div class="group relative hover:left-[-40%]">
+        <div class="flex flex-col gap-4 justify-center items-center bg-gradient-to-b from-teal-500 via-emerald-950 to-black p-8 w-[160px] rounded-tr-3xl rounded-bl-3xl text-green-100 z-[1] relative shadow-lg shadow-emerald-500">
         {@html f.icon}
          <p class="text-xl font-bold">{ f.text }</p>
         </div>
-        <div class="bg-black text-white rounded-tl-3xl rounded-br-3xl absolute top-[24px] left-[80%] bottom-[-24px] z-[-1] w-[160px] bg-gradient-to-tr from-green-500 via-green-800 to-black flex items-center justify-center">
+        <div class="bg-black text-white rounded-tl-3xl rounded-br-3xl absolute top-[24px] left-[80%] bottom-[-24px] w-[160px] bg-gradient-to-tr from-teal-500 via-emerald-800 to-green-900 flex items-center justify-center hidden group-hover:flex shadow-lg shadow-emerald-500">
           <p class="text-justify pl-6 text-sm text-green-100">Penjelasan</p>
         </div>
       </div>

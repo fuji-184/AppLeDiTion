@@ -2,9 +2,9 @@
   import Accordion from '$lib/Accordion.svelte';
 </script>
 
-<section class="p-4 py-28 bg-gradient-to-b from-green-950 via-black to-black text-green-100">
+<section class="p-4 py-28 bg-gradient-to-b from-emerald-950 via-black to-black text-emerald-100 md:px-[16%]">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="mb-16">
+    <div class="mb-16 drop-shadow-[0_8px_6px_rgba(34,197,94,1)] bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-emerald-400">
       <h6 class="text-lg font-medium text-center mb-2">
         FAQs
       </h6>

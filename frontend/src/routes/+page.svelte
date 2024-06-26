@@ -5,7 +5,6 @@
         import QnA from "$lib/QnA.svelte"
         import Footer from "$lib/Footer.svelte"
         import Section from "$lib/Section.svelte"
-        import Upload_File from "$lib/Upload_File.svelte"
         import Testimoni from "$lib/Testimoni.svelte"
 </script>
 
@@ -13,7 +12,6 @@
 <Section />
 <Fitur />
 <Guider />
-<Upload_File />
 <Testimoni />
 <QnA />
 <Footer />

@@ -1,4 +1,4 @@
-<div class="h-screen bg-black">
+<div class=" bg-black pb-[80px]">
   <Navigasi/>
   <slot/>
 </div>

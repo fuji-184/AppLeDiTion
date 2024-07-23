@@ -10,5 +10,5 @@ def obat(penyakit):
 			penyakit = ("Black Root",)
 		elif penyakit == "healthy":
 			penyakit = ("Healthy",)
-		hasil = db.query("select * from penyakit where nama = %s;", penyakit)
+		hasil = db.query("select * from hasil where nama = %s;", penyakit)
 		return {"hasil": hasil}

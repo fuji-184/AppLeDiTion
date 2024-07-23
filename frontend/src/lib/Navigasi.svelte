@@ -1,5 +1,15 @@
 <script>
-  import Pencarian from "$lib/Pencarian.svelte";
+  import Pencarian from "$lib/Pencarian.svelte"
+  import Notif from "$lib/Notif.svelte"
+  import { goto } from "$app/navigation"
+  import { onMount } from "svelte";
+
+  $: nama = null
+
+  onMount(() => {
+    nama = JSON.parse(localStorage.getItem("nama"))
+    console.log(nama)
+  })
 
   let menu = [
     { label: "Home", href: "/", active: true, icon: '<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em"><path fill="currentColor" d="M11 39h7.5V26.5h11V39H37V19.5L24 9.75 11 19.5Zm0 3q-1.25 0-2.125-.875T8 39V19.5q0-.7.325-1.35.325-.65.875-1.05l13-9.75q.4-.3.85-.45.45-.15.95-.15.5 0 .95.15.45.15.85.45l13 9.75q.55.4.875 1.05.325.65.325 1.35V39q0 1.25-.875 2.125T37 42H26.5V29.5h-5V42Zm13-17.65Z"/></svg>' },
@@ -10,6 +20,8 @@
 
   let activeMenu = menu.find(item => item.active)?.href || menu[0].href;
   let tampilkanPencarian = false;
+  let tampilkanProfil = false
+  let muncul = false, pesan = ""
 
   function setActiveMenu(href) {
     activeMenu = href;
@@ -25,13 +37,42 @@
     tampilkanPencarian = false;
     activeMenu = menu.find(item => item.active)?.href || menu[0].href;  // Reset active menu
   }
+
+  function klikProfil() {
+    tampilkanProfil = !tampilkanProfil
+    activeMenu = "profil";  // Set activeMenu to "search" when search is clicked
+  }
+
+  function keluar(){
+    localStorage.removeItem("token")
+    localStorage.removeItem("id")
+    localStorage.removeItem("nama")
+
+    pesan = "Logout berhasil"
+    muncul = true
+
+    goto("/")
+  }
+
+  // let scrolled = false;
+
+  // onMount(() => {
+  //   const handleScroll = () => {
+  //     scrolled = window.scrollY > 50;
+  //   };
+
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // });
 </script>
 
-<header class="z-10 h-auto p-0 fixed bottom-0 left-0 right-0 flex justify-center bg-black text-black sm:static sm:justify-between box-border h-[80px] md:justify-center">
-  <div class="grid grid-cols-5 text-emerald-500 place-items-center place-content-center font-bold">
+<header class="z-10 h-auto p-0 fixed bottom-0 left-0 right-0 flex justify-center bg-black text-black sm:static sm:justify-between box-border h-[80px] md:justify-center md:fixed md:bottom-[8px] md:bg-transparent">
+  <div class="md:rounded-lg md:bg-[rgba(0,0,0,0.8)] relative grid grid-cols-6 text-emerald-500 place-items-center place-content-center font-bold">
     {#each menu as m}
     <div class="relative h-[100%] w-auto box-border">
-      <a href="{m.href}" class="p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-emerald-600 hover:text-white {activeMenu === m.href ? 'bg-gradient-to-b from-black via-black to-emerald-60 text-white' : ''}" on:click="{() => setActiveMenu(m.href)}">
+      <a href="{m.href}" class="md:bg-none md:hover:bg-none p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-emerald-600 hover:text-white {activeMenu === m.href ? 'bg-gradient-to-b from-black via-black to-emerald-60 text-white' : ''}" on:click="{() => setActiveMenu(m.href)}">
         <span class="flex justify-center items-center flex-col hover:animate-blink {activeMenu === m.href ? 'text-white' : ''} text-sm drop-shadow-[0_10px_8px_rgba(16,185,129,1)]">
           {@html m.icon}
           {m.label}
@@ -39,14 +80,33 @@
       </a>
       </div>
     {/each}
+
     <div class="relative h-[100%] w-auto box-border">
-      <span class="p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-emerald-600 hover:text-white {activeMenu === 'search' ? 'bg-gradient-to-b from-black via-black to-emerald-60 text-white' : ''}" on:click="{() => klikPencarian()}">
+      <span class="md:bg-none md:hover:bg-none p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-emerald-600 hover:text-white {activeMenu === 'search' ? 'bg-gradient-to-b from-black via-black to-emerald-60 text-white' : ''}" on:click="{() => klikPencarian()}">
         <span class="flex justify-center items-center flex-col hover:animate-blink {activeMenu === 'search' ? 'text-white' : ''} text-sm">
       <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em"><path fill="currentColor" d="M38.7 40.85 26.65 28.8q-1.5 1.3-3.5 2.025-2 .725-4.25.725-5.4 0-9.15-3.75T6 18.75q0-5.3 3.75-9.05 3.75-3.75 9.1-3.75 5.3 0 9.025 3.75 3.725 3.75 3.725 9.05 0 2.15-.7 4.15-.7 2-2.1 3.75L40.95 38.7q.45.4.45 1.025 0 .625-.5 1.125-.45.45-1.1.45-.65 0-1.1-.45Zm-19.85-12.3q4.05 0 6.9-2.875Q28.6 22.8 28.6 18.75t-2.85-6.925Q22.9 8.95 18.85 8.95q-4.1 0-6.975 2.875T9 18.75q0 4.05 2.875 6.925t6.975 2.875Z"/></svg>
       Search
       </span>
       </span>
     </div>
+
+    {#if nama}
+      <button on:click={klikProfil} class="relative h-[100%] w-auto box-border">
+        <span class="md:bg-none md:hover:bg-none p-4 flex justify-center items-center box-border w-[100%] h-[100%] hover:bg-gradient-to-b from-black via-black to-emerald-600 hover:text-white {activeMenu === "profil" ? 'bg-gradient-to-b from-black via-black to-emerald-60 text-white' : ''}">
+          <span class="flex justify-center items-center flex-col hover:animate-blink {activeMenu === "profil" ? 'text-white' : ''} text-sm drop-shadow-[0_10px_8px_rgba(16,185,129,1)]">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em"><path fill="currentColor" d="M4 32.2V6.1q0-.7.65-1.4T6 4h25.95q.75 0 1.4.675Q34 5.35 34 6.1v17.8q0 .7-.65 1.4t-1.4.7H12l-6.7 6.7q-.35.35-.825.175T4 32.2ZM7 7v16V7Zm7.05 29q-.7 0-1.375-.7T12 33.9V29h25V12h5q.7 0 1.35.7.65.7.65 1.45v28q0 .5-.475.675-.475.175-.825-.175L36.05 36ZM31 7H7v16h24Z"/></svg>
+            {nama}
+            </span>
+          </span>
+        </button>
+    {/if}
+
+    {#if tampilkanProfil}
+      <div class="z-10 shadow-lg hover:bg-black p-4 rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 text-emerald-100 text-sm font-semibold absolute bottom-[110%] right-0">
+        <button on:click={keluar}>Keluar</button>
+      </div>
+    {/if}
+
   </div>
 </header>
 
@@ -57,6 +117,8 @@
     <button class="absolute bottom-[20%] bg-black text-white w-[50px] h-[50px] rounded-full" on:click={tutupPencarian}>X</button>
   </div>
 {/if}
+
+<Notif muncul={muncul} pesan={pesan}/>
 
 <style>
   @keyframes gradient {
@@ -81,6 +143,22 @@
 
 .animate-blink {
   animation: blink 0.6s ease-in-out infinite;
+}
+
+
+.hover {
+  border-radius: 12px;
+  background: none;
+}
+
+.hover:hover {
+  border-radius: 12px;
+  background: none;
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
 }
 
 

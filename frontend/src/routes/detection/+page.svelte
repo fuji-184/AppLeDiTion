@@ -11,9 +11,9 @@
   }
 </script>
 
-<div class="flex justify-center h-screen items-center">
-  <Upload_File on:message={kirimHasilPrediksi} />
-</div>
+
+<Upload_File on:message={kirimHasilPrediksi} />
+
 
 <!--{#if hasil_prediksi}-->
   <!--<div class="bg-green-600 text-white p-5  m-5 rounded-md">{hasil_prediksi.hasil_prediksi}</div>-->

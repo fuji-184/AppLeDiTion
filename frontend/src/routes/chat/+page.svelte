@@ -27,7 +27,7 @@
     }
 </script>
 
-<div class="text-white">
+<div class="text-white bg-black h-min-[100%]">
     <ul>
         {#each messages as message}
             <li>{message}</li>

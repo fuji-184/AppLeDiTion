@@ -1,28 +1,21 @@
-{#each artikel as a}
-<div class="group w-[100%] rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-  <div class="md:flex relative">
-    <div class="md:flex-shrink-0">
-      <img class="left-0 right-0 top-0 z-40 h-48 w-full object-cover md:w-48 group-hover:scale-125" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVPbB7pENaEhkc4ps1JbQ4ozMMgmi4BR-ykoUHXkNfA&s" alt="An image">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-16 p-16">
+  {#each artikel as a}
+    <div class="group rounded-xl shadow-lg shadow-emerald-500 group-hover:shadow-xl group-hover:shadow-emerald-500 overflow-hidden">
+      <div class="relative">
+        <div class="w-full">
+          <img class="h-48 w-full object-cover group-hover:scale-125 transition-transform duration-200 ease-in-out" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVPbB7pENaEhkc4ps1JbQ4ozMMgmi4BR-ykoUHXkNfA&s" alt="An image">
+        </div>
+        <div class="rounded-b-xl absolute bottom-0 z-[2] w-full">
+          <div class="p-5 tracking-wide text-lg text-center text-emerald-100 font-semibold group-hover:drop-shadow-[0_10px_8px_rgba(16,185,129,1)] group-hover:text-emerald-400">{a.judul}</div>
+          <p class="hidden p-5 bg-black bg-opacity-50 mt-2 text-gray-500">{a.isi}</p>
+        </div>
+        <div class="absolute z-[1] inset-0 bg-gradient-to-b from-transparent to-black bg-opacity-[20%]">
+        </div>
+      </div>
     </div>
-    <div class="rounded-b-xl absolute bottom-0 z-40">
-      <div class="p-5 tracking-wide text-lg text-center text-green-500 font-semibold group-hover:drop-shadow-[0_0_10px_green]">{a.judul}</div>
-      <p class="hidden p-5 bg-black bg-opacity-50 mt-2 text-gray-500">{a.isi}</p>
-    </div>
-    <div class="absolute z-30 inset-0 bg-gradient-to-b from-transparent to-black bg-opacity-[20%]">
-    </div>
-  </div>
+  {/each}
 </div>
-{/each}
 
 <script>
-let artikel = [
-  {
-    judul: "Judul 1",
-    isi: "Isi"
-  },
-  {
-    judul: "Judul 2",
-    isi: "Isi"
-  }
-]
+  export let artikel = []
 </script>

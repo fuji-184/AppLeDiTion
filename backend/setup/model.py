@@ -1,14 +1,21 @@
 import torch
-import torch.nn as nn
-from torchvision import transforms
-import onnxruntime
+import torchvision.transforms as transforms
 from PIL import Image
 import numpy as np
 import cv2
 
+from model.arsitektur import *
+
 class Model:
     def __init__(self, model_path, class_list):
-        self.model_onnx = onnxruntime.InferenceSession(model_path)
+        self.model = EfficientNetV2(CONFIGS['s'], n_classes=4)  # Inisialisasi model
+
+        # Muat state dict ke model
+        state_dict = torch.load(model_path, map_location=torch.device('cpu'))
+        self.model.load_state_dict(state_dict)
+        
+        # Panggil eval() pada model untuk menempatkannya ke mode evaluasi
+        self.model.eval()
         self.class_list = class_list
 
         # Preprocessing pipeline
@@ -18,133 +25,66 @@ class Model:
             transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
         ])
 
-        # Placeholder for feature maps and gradients
-        self.feature_map = None
-        self.gradients = None
+    def preprocess_image(self, image_path):
+        image = Image.open(image_path)
+        image = self.transform(image).unsqueeze(0)
+        return image
+
+    def softmax(self, x):
+        e_x = np.exp(x - np.max(x))
+        return e_x / e_x.sum(axis=1, keepdims=True)
 
     def classify_image(self, image_path):
-        # Load and preprocess the image
-        image = Image.open(image_path)
-        image = self.transform(image).unsqueeze(0).numpy()
+        # Preprocess the image
+        image = self.preprocess_image(image_path)
 
         # Run inference
-        ort_inputs = {self.model_onnx.get_inputs()[0].name: image}
-        ort_outs = self.model_onnx.run(None, ort_inputs)
-        predicted_class_index = int(ort_outs[0].argmax())
+        with torch.no_grad():
+            outputs = self.model(image)
+            _, predicted = torch.max(outputs, 1)
+            predicted_class_index = predicted.item()
+            score = self.softmax(outputs.numpy())
+            confidence_score = float(score[0][predicted_class_index]) * 100
+
         if predicted_class_index < len(self.class_list):
-            return self.class_list[predicted_class_index]
+            return self.class_list[predicted_class_index], confidence_score
         else:
-            return 'Unknown'
-
-    def generate_heatmap2(self, image_path, save_path):
-        # Load and preprocess the image
-        image = Image.open(image_path)
-        transformed_image = self.transform(image).unsqueeze(0)  # shape: [1, 3, 224, 224]
-        image_np = transformed_image.numpy()
-
-        # Get the input name and shape for the ONNX model
-        input_name = self.model_onnx.get_inputs()[0].name
-
-        # Run the model to get the output logits
-        ort_inputs = {input_name: image_np}
-        ort_outs = self.model_onnx.run(None, ort_inputs)
-        logits = ort_outs[0]
-
-        # Convert logits to probabilities
-        probs = torch.softmax(torch.from_numpy(logits), dim=1)
-        top_prob, top_class = probs.topk(1, dim=1)
-        predicted_class_index = top_class.item()
-
-        # Backpropagation to get gradients
-        self.model_onnx.predicted_class = predicted_class_index
-        self.model_onnx.transforms_image = transformed_image.requires_grad
-
-        # Clear previous gradients
-        self.model_onnx.zero_grad()
-
-        # Backward pass
-        logits.backward()
-
-        # Get the gradients for the feature map and take average across channels
-        gradients = self.model_onnx.predicted_class.grad
-        pooled_gradients = torch.mean(gradients, dim=[0, 2, 3])
-
-        # Get the feature map of the last convolutional layer
-        feature_map = self.model_onnx.transforms_image[0]
-        feature_map = feature_map.detach().numpy()
-
-        # Weighted average of the feature map using the gradients
-        for i in range(gradients.shape[1]):
-            feature_map[i, :, :] *= pooled_gradients[i]
-
-        # Average the feature map along the channel dimension to get the heatmap
-        heatmap = np.mean(feature_map, axis=0)
-        heatmap = np.maximum(heatmap, 0)
-        heatmap /= np.max(heatmap)
-
-        # Resize heatmap to match the original image size
-        heatmap = cv2.resize(heatmap, (image.size[1], image.size[0]))
-        heatmap = np.uint8(255 * heatmap)
-
-        # Apply heatmap to the original image
-        heatmap = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)
-
-        # Superimpose heatmap on the original image
-        superimposed_img = heatmap * 0.4 + np.array(image) * 0.6
-        superimposed_img = superimposed_img.astype(np.uint8)
-
-        # Save the superimposed image with heatmap
-        cv2.imwrite(save_path, superimposed_img)
-
-        return superimposed_img
-       
+            return 'Unknown', 0
 
     def generate_heatmap(self, image_path, save_path):
-        # Load and preprocess the image
-        image = Image.open(image_path)
-        transformed_image = self.transform(image).unsqueeze(0)  # shape: [1, 3, 224, 224]
-        image_np = transformed_image.numpy()
+        # Preprocess the image
+        image = self.preprocess_image(image_path)
 
-        # Get the input name for the ONNX model
-        input_name = self.model_onnx.get_inputs()[0].name
+        # Forward pass to get feature map from 'pre' layer
+        pre_layer_features = None
+        def hook(module, input, output):
+            nonlocal pre_layer_features
+            pre_layer_features = output
+        
+        handle = self.model.features.register_forward_hook(hook)
+        with torch.no_grad():
+            _ = self.model(image)
+        handle.remove()
 
-        # Run the model to get the output logits
-        ort_inputs = {input_name: image_np}
-        ort_outs = self.model_onnx.run(None, ort_inputs)
+        if pre_layer_features is None:
+            raise ValueError("Failed to retrieve features from 'pre' layer")
 
-        # Example: Get feature map from the last convolutional layer
-        last_conv_output = ort_outs[0]  # Assuming this is the output of the last convolutional layer
+        # Convert tensor to numpy array and reshape
+        pre_layer_features_np = pre_layer_features.numpy()
+        pre_layer_features_np = np.squeeze(pre_layer_features_np)  # Remove single-dimensional entries
 
-        # Calculate gradient of the top predicted class with respect to the output of the last convolutional layer
-        predicted_class_index = np.argmax(ort_outs[1])  # Assuming ort_outs[1] contains the predicted class scores
-        gradients = self.compute_gradients(last_conv_output, predicted_class_index)
+        # Perform operations to create heatmap
+        heatmap = np.mean(pre_layer_features_np, axis=0)  # Example: averaging along the channel axis
+        heatmap = np.maximum(heatmap, 0)  # ReLU-like operation
+        heatmap /= np.max(heatmap)  # Normalize
 
-        # Calculate weighted average of the feature map
-        weights = np.mean(gradients, axis=(2, 3), keepdims=True)
-        heatmap = np.sum(weights * last_conv_output, axis=1, keepdims=True)
+        # Resize heatmap to match input image size
+        heatmap = cv2.resize(heatmap, (image.shape[3], image.shape[2]))
 
-        # Normalize the heatmap
-        heatmap = np.maximum(heatmap, 0)
-        heatmap /= np.max(heatmap)
+        # Apply heatmap to original image
+        heatmap = cv2.applyColorMap(np.uint8(255 * heatmap), cv2.COLORMAP_JET)
+        superimposed_img = heatmap * 0.4 + image.numpy().squeeze(0).transpose((1, 2, 0)) * 255
+        superimposed_img = np.uint8(superimposed_img / np.max(superimposed_img) * 255)
 
-        # Resize heatmap to match the original image size
-        heatmap = cv2.resize(heatmap[0], (image.size[0], image.size[1]))
-        heatmap = np.uint8(255 * heatmap)
-
-        # Apply heatmap to the original image
-        heatmap = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)
-
-        # Superimpose heatmap on the original image
-        superimposed_img = heatmap * 0.4 + np.array(image) * 0.6
-        superimposed_img = superimposed_img.astype(np.uint8)
-
-        # Save the superimposed image with heatmap
         cv2.imwrite(save_path, superimposed_img)
-
-        return superimposed_img
-
-    def compute_gradients(self, output, class_index):
-        # Compute gradient of the top predicted class with respect to the output of the last convolutional layer
-        gradients = np.zeros_like(output)
-        gradients[:, class_index] = 1.0
-        return gradients
+        # return save_path

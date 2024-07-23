@@ -1,5 +1,5 @@
-<div class="bg-gradient-to-br from-emerald-950 via-black to-black text-white py-20">
-		<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+<div class="bg-gradient-to-br from-emerald-950 via-black to-black text-white py-10">
+		<div class="container mx-auto flex flex-col md:flex-row items-center my-12">
 			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
 				<h1 class="text-3xl md:text-5xl text-emerald-300 tracking-loose drop-shadow-[0_10px_8px_rgba(16,185,129,1)]">AppLeDiTion App</h1>
 				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Apple Leaves Disease Classification

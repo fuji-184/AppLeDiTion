@@ -1,17 +1,17 @@
-<div class="bg-black h-full text-white flex-col w-[70%] m-auto p-8">
-    <div class="flex justify-between items-center">
+<div class="bg-black h-full text-white flex-col m-auto p-8">
+    <div class="flex justify-between items-center gap-4 bg-emerald-500 p-8 rounded-lg">
         <div class="flex flex-col gap-4">
             <p class="text-3xl font-bold">Cedar Apple Rust</p>
             <span class=" text-lg font-semibold">
                 <p>Keyakinan</p>
-                <p class="text-emerald-500">96%</p>
+                <p class="text-emerald-950">96%</p>
             </span>
         </div>
         <div class="">
             <img class="rounded-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVPbB7pENaEhkc4ps1JbQ4ozMMgmi4BR-ykoUHXkNfA&s" alt="An image" />
         </div>
     </div>
-    <div class="w-full text-white mt-16">
+    <div class="w-full text-white text-justify text-sm mt-16">
         Penyakit Cedar Apple Rust adalah penyakit jamur yang disebabkan oleh patogen Gymnosporangium juniperi-virginianae.
 
         Penyakit Cedar Apple Rust terutama mempengaruhi pohon apel dan tanaman terkait. Berikut adalah penjelasan lebih detail mengenai dampak penyakit ini pada pohon apel:
@@ -57,4 +57,7 @@
 
 Dengan memahami siklus hidup dan gejala penyakit ini, serta menerapkan langkah-langkah pengendalian yang tepat, petani dapat mengelola dan meminimalkan dampak Cedar Apple Rust pada tanaman apel mereka.
     </div>
+    <div class="bg-emerald-500 p-8 mt-16 rounded-lg">
+		<h2 class="text-2xl font-bold text-center">Rekomendasi Pengobatan</h2>
+	</div>
 </div>

@@ -1,13 +1,7 @@
-<div class="pb-[80px]">
-  <Navigasi/>
-  <slot/>
-</div>
-
 <script>
-        import "../app.css"
-        import Navigasi from "$lib/Navigasi.svelte"
-        
-        import eruda from 'eruda';
-        eruda.init();
-        
+	import "../app.css"
+    import eruda from 'eruda';
+    eruda.init();
 </script>
+
+<slot />

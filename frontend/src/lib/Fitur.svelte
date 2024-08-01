@@ -19,7 +19,7 @@
   ]
 </script>
 
-<div class="flex justify-center items-center flex-col gap-24 bg-gradient-to-bl from-black via-black to-emerald-950 relative">
+<div class="flex justify-center items-center flex-col gap-24 bg-gradient-to-bl from-black via-black to-emerald-950 relative mt-32">
   <h2 class="text-3xl md:text-5xl tracking-loose text-center drop-shadow-[0_8px_6px_rgba(34,197,94,1)] bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-emerald-400 font-bold">Why Using This Tools?</h2>
   <div class="flex flex-col justify-center items-center gap-16 text-center">
     {#each features as f}

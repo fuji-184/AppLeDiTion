@@ -43,7 +43,7 @@
 	}
 </script>
 
-<div>
+<div class="h-screen bg-black">
 	<input type="text" bind:value={artikel.judul} placeholder="judul" class="p-4 rounded-lg w-full focus:outline-none text-xl font-bold" />
 	<Editor licenseKey='gpl' scriptSrc='http://127.0.0.1:5173/tinymce/tinymce.min.js'
 	

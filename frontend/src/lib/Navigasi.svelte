@@ -3,6 +3,7 @@
   import Notif from "$lib/Notif.svelte"
   import { goto } from "$app/navigation"
   import { onMount } from "svelte";
+  import {Howl} from 'howler';
 
   $: nama = null
 
@@ -24,6 +25,7 @@
   let muncul = false, pesan = ""
 
   function setActiveMenu(href) {
+  	sound.play()
     activeMenu = href;
     tampilkanPencarian = false;  // Close search when another menu item is active
   }
@@ -66,6 +68,11 @@
   //     window.removeEventListener('scroll', handleScroll);
   //   };
   // });
+  
+	let sound = new Howl({
+		src: ['http://127.0.0.1:5173/click.wav'],
+		// html5: true
+	})
 </script>
 
 <header class="z-10 h-auto p-0 fixed bottom-0 left-0 right-0 flex justify-center bg-black text-black sm:static sm:justify-between box-border h-[80px] md:justify-center md:fixed md:bottom-[8px] md:bg-transparent">

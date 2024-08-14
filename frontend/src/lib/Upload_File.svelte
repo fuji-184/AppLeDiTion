@@ -1,7 +1,7 @@
 <script>
   import axios from 'axios';
-  import { createEventDispatcher } from 'svelte'
-  
+  import { createEventDispatcher, onDestroy } from 'svelte'
+  import { Howl } from "howler"
   import Tombol from '$lib/Tombol.svelte'
   
   const dispath = createEventDispatcher()
@@ -10,6 +10,11 @@
   // let base64_img
   let base64_img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHeavMGuSDnzymxaNqqTBHUP4sS7hnop2m6ZaodkfQ_u17keaBp7cqn8&s=10';
   
+  let kirim_gambar = new Howl({
+		src: ['http://127.0.0.1:5173/kirim_gambar.mp3'],
+		html5: true
+	})
+  
   function toBase64() {
     if (files && files.length > 0) {
       let reader = new FileReader();
@@ -17,6 +22,8 @@
         base64_img = reader.result;
       };
       reader.readAsDataURL(files[0]);
+      
+      kirim_gambar.play()
     }
   }
 
@@ -40,6 +47,10 @@
       }
     }
   }
+  
+  onDestroy(() => {
+  	kirim_gambar.stop()
+  })
 </script>
 
 <div class="bg-gradient-to-b from-black via-emerald-950 to-black p-8 pt-24 md:px-[16%] h-screen flex justify-center items-center">

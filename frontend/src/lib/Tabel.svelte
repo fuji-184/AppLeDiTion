@@ -1,4 +1,6 @@
 <script>
+	import Konfirmasi from "$lib/Konfirmasi.svelte"
+
 	let data = [
 		{
 			id: 1,
@@ -119,6 +121,17 @@
 			return data.slice(i_awal, i_akhir)
 		}
 	}
+	
+	let kotak_konfirmasi = {
+		tampil: true,
+		message: "hello",
+		state: null
+	}
+	
+	function konfirmasi(event){
+		kotak_konfirmasi["state"] = event.detail.state_baru
+		console.log(kotak_konfirmasi.state)
+	}
 </script>
 
 <div class="flex flex-col justify-center items-center bg-gradient-to-b from-emerald-500 via-emerald-700 to-black text-white p-8">
@@ -201,6 +214,8 @@
 		</button>
 	</div>
 </div>
+
+<Konfirmasi {kotak_konfirmasi} on:event_klik={konfirmasi} />
 
 <style>
 	th, td {

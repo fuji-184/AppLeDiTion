@@ -1,4 +1,6 @@
 <script>
+	import {Howl} from 'howler'
+
   let features = [
     {
       icon: '<svg width="80px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="m21.9 42-6.4-6.4 2.15-2.1 4.25 4.25 8.45-8.5 2.15 2.15ZM9 12h30V9H9v3Zm6.95 6h16.1l.9-3h-17.9l.9 3Zm0 3q-.95 0-1.75-.575T13.1 18.9L11.85 15H9q-1.25 0-2.125-.875T6 12V6h36v6q0 1.25-.875 2.125T39 15h-2.85l-1.5 4.05q-.35.85-1.125 1.4-.775.55-1.725.55ZM9 12V9v3Z"/></svg>',
@@ -17,13 +19,17 @@
       text: 'Free'
     }
   ]
+  
+	let sound = new Howl({
+		src: ['http://127.0.0.1:5173/features.wav']
+	});
 </script>
 
 <div class="flex justify-center items-center flex-col gap-24 bg-gradient-to-bl from-black via-black to-emerald-950 relative mt-32">
   <h2 class="text-3xl md:text-5xl tracking-loose text-center drop-shadow-[0_8px_6px_rgba(34,197,94,1)] bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-emerald-400 font-bold">Why Using This Tools?</h2>
   <div class="flex flex-col justify-center items-center gap-16 text-center">
     {#each features as f}
-      <div class="group relative hover:left-[-40%]">
+      <div class="group relative hover:left-[-40%]" on:click={() => sound.play()}>
         <div class="flex flex-col gap-4 justify-center items-center bg-gradient-to-b from-teal-500 via-emerald-950 to-black p-8 w-[160px] rounded-tr-3xl rounded-bl-3xl text-green-100 z-[1] relative shadow-lg shadow-emerald-500">
         {@html f.icon}
          <p class="text-xl font-bold">{ f.text }</p>

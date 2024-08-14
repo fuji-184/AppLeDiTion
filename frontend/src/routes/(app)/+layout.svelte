@@ -5,4 +5,5 @@
 
 <script>
         import Navigasi from "$lib/Navigasi.svelte"
+        import { Howl } from "howler"
 </script>

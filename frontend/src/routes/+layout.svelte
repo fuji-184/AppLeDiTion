@@ -3,8 +3,9 @@
     import eruda from 'eruda'
     import { onMount } from "svelte"
     import { Howl, Howler } from "howler"
+	import { fetcher } from "$lib/utils/fetcher.js"
         
-    eruda.init();
+    // eruda.init();
     
     
 	let wellcome = new Howl({
@@ -18,7 +19,16 @@
 		wellcome.once("load", () => {
 			wellcome.play()
 		})
+		kirim_visitor()
 	})
+
+	async function kirim_visitor(){
+		await fetcher({
+			path: "/visitors",
+			method: "POST",
+		
+		})
+	}
 		
 </script>
 

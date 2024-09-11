@@ -44,7 +44,7 @@
     if (res.pesan === "berhasil"){
       pesan = "Login berhasil"
       muncul = true
-      goto("/")
+      window.location.href = "/"
     }
 
   }

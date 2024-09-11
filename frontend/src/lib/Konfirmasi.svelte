@@ -22,12 +22,12 @@
 	}
 </script>
 
-<div hidden={!kotak_konfirmasi.tampil}>
-	<p>
+<div hidden={!kotak_konfirmasi.tampil} class="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] p-4 bg-gradient-to-br from-teal-500 to-teal-900 text-teal-50 rounded-lg">
+	<p class="text-md font-semibold mb-4 text-center">
 		{kotak_konfirmasi.message}
 	</p>
-	<div>
-		<button on:click={ok}>Ok</button>
-		<button on:click={cancel}>Cancel</button>
+	<div class="text-xs font-semibold flex justify-center">
+		<button on:click={ok} class="bg-teal-900 p-2 rounded-lg mr-1">Ok</button>
+		<button on:click={cancel} class="bg-red-700 p-2 rounded-lg">Cancel</button>
 	</div>
 </div>

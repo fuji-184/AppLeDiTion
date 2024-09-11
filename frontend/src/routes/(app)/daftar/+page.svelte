@@ -3,6 +3,8 @@
     <input bind:value={nama} type="text" placeholder="Nama" class="bg-white text-black p-2 rounded-md focus:outline-none" />
     <input bind:value={username} type="text" placeholder="Username" class="bg-white text-black p-2 rounded-md focus:outline-none" />
     <input bind:value={password} type="text" placeholder="Password" class="bg-white text-black p-2 rounded-md focus:outline-none" />
+    <input bind:value={tanggal_lahir} type="date" class="bg-white text-black p-2 rounded-md focus:outline-none" />
+    <input bind:value={alamat} type="text" placeholder="alamat" class="bg-white text-black p-2 rounded-md focus:outline-none" />
     <button on:click={submit} type="submit" class="mt-3 bg-green-600 p-2 rounded-md">Daftar</button>
     <p>Sudah punya akun? Masuk di <a href="/masuk" class="text-green-400 font-bold">sini</a>
   </form>
@@ -22,7 +24,7 @@
     }
   })
   
-  let nama = "", username = "", password = "", is_admin = false
+  let nama = "", username = "", password = "", is_admin = false, tanggal_lahir = null, alamat = ""
   let notif = false
   let pesan = ""
 
@@ -35,6 +37,8 @@
         username: username,
         password: password,
         is_admin: is_admin,
+        tanggal_lahir: tanggal_lahir,
+        alamat: alamat
       }
     })
 
@@ -46,9 +50,10 @@
     }
 
     if (res.pesan === "berhasil"){
+      console.log(res)
       pesan = "Pendaftaran berhasil"
       notif = true
-      goto("/")
+      window.location.href = "/"
     }
   }
 </script>

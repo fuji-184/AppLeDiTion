@@ -8,7 +8,7 @@ from model.arsitektur import *
 
 class Model:
     def __init__(self, model_path, class_list):
-        self.model = EfficientNetV2(CONFIGS['s'], n_classes=4)  # Inisialisasi model
+        self.model = EfficientNetV2_VitEncoder(embed_dim=192, num_heads=8, num_classes=4, patch_size=16)  # Inisialisasi model
 
         # Muat state dict ke model
         state_dict = torch.load(model_path, map_location=torch.device('cpu'))
@@ -61,7 +61,7 @@ class Model:
             nonlocal pre_layer_features
             pre_layer_features = output
         
-        handle = self.model.features.register_forward_hook(hook)
+        handle = self.model.pool.register_forward_hook(hook)
         with torch.no_grad():
             _ = self.model(image)
         handle.remove()

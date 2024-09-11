@@ -9,6 +9,7 @@
   let pesan_baru = "";
   const id_user = JSON.parse(localStorage.getItem("id"))
   const nama = JSON.parse(localStorage.getItem("nama"))
+  console.log(nama)
 
   // Inisialisasi koneksi socket saat komponen dimuat
   onMount(() => {
@@ -71,6 +72,6 @@
   </div>
 </div>
 
-<a class="bg-blue text-emerald-500 text-md font-semibold z-40 fixed bottom-[24px] left-[24px]" href="/">
+<a class="hidden lg:block bg-blue text-emerald-500 text-md font-semibold z-40 fixed bottom-[24px] left-[24px]" href="/">
   Home
 </a>

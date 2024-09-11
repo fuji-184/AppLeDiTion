@@ -6,9 +6,9 @@ def obat(penyakit):
 			penyakit = ("Apple Scab",)
 		elif penyakit == "cedar_apple_rust":
 			penyakit = ("Cedar Apple Rust",)
-		elif penyakit == "black_root":
+		elif penyakit == "black_rot":
 			penyakit = ("Black Root",)
 		elif penyakit == "healthy":
 			penyakit = ("Healthy",)
-		hasil = db.query("select * from hasil where nama = %s;", penyakit)
-		return {"hasil": hasil}
+		hasil = db.query("select id, deskripsi, pengobatan from hasil where nama = %s;", (penyakit,))
+		return hasil

@@ -2,14 +2,16 @@
   import Upload_File from "$lib/Upload_File.svelte"
   import { Howl } from "howler"
   import { onDestroy } from "svelte"
+  import { hasil } from "$lib/stores/hasil.js"
+  import { goto } from '$app/navigation'
   
-  let hasil_prediksi = {
-    'hasil_prediksi': 'Healthy'
-  }
-  
+  let hasil_prediksi = {}
+
   function kirimHasilPrediksi(e){
     hasil_prediksi = e.detail
-    console.log(hasil_prediksi)
+    hasil.set(hasil_prediksi)
+    // console.log(hasil_prediksi)
+    goto("/hasil")
   }
   
   let pilih_gambar = new Howl({
@@ -24,9 +26,7 @@
 	})
 </script>
 
-
-<Upload_File on:message={kirimHasilPrediksi} />
-
+  <Upload_File on:message={kirimHasilPrediksi} />
 
 <!--{#if hasil_prediksi}-->
   <!--<div class="bg-green-600 text-white p-5  m-5 rounded-md">{hasil_prediksi.hasil_prediksi}</div>-->

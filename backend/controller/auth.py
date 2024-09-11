@@ -10,7 +10,6 @@ from setup.postgresql import db
 @jwt_required(optional=True)
 def daftar():
     id = get_jwt_identity()  # Mengambil identitas JWT jika ada
-    print(username)
     
     if id:
       return {"pesan": "sudah login"}
@@ -19,11 +18,12 @@ def daftar():
     print(data.get("nama"))
     
     if data:
-        hasil = db.query(query="insert into users(nama, username, password, is_admin) values(%s, %s, %s, %s) returning id;", params=(
+        hasil = db.query(query="insert into users(nama, username, password, is_admin, tanggal_lahir) values(%s, %s, %s, %s, %s) returning id;", params=(
             data.get("nama"),
             data.get("username"),
             data.get("password"),
             data.get("is_admin"),
+            data.get("tanggal_lahir"),
           )
         )
         
@@ -33,7 +33,7 @@ def daftar():
 
         return {
           "pesan": "berhasil",
-          "id": hasil,
+          "id": hasil["id"],
           "nama": data.get("nama"),
           "token": token
         }
